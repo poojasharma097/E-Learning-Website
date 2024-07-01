@@ -1,0 +1,259 @@
+/* responisve */
+/* for tablet */
+@media (min-width: 768px) {
+  html {
+    font-size: 56.25%;
+    /* 9px / 16px */
+    overflow-x: hidden !important;
+  }
+  body {
+    overflow-x: hidden !important;
+  }
+  .container {
+    max-width: 689px;
+  }
+  .img-logo {
+    height: 2.6rem;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+  }
+  .hero-lead {
+    font-size: 1.7rem;
+  }
+  .btn-hero {
+    font-size: 1.9rem;
+  }
+
+  .btn-header {
+    font-size: 1.7rem;
+    padding: 1.8rem 2rem;
+  }
+  .header-flex {
+    margin-top: 2.56rem;
+  }
+
+  /* image section */
+  .hero-inner {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    justify-content: center;
+  }
+  .img-hero {
+    position: relative;
+    top: -100%;
+  }
+
+  .image-hero {
+    position: absolute;
+    min-width: 695px;
+    height: 700px;
+    top: 50%;
+  }
+  .hero {
+    margin-top: 2rem;
+  }
+  .footer {
+    width: 100%;
+  }
+  .cta__conatiner {
+    margin-top: 20rem;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 2rem;
+    row-gap: 7rem;
+
+    width: 100%;
+  }
+
+  .cta__title {
+    padding-bottom: 10rem;
+    padding-top: 4.14rem;
+  }
+
+  .cta__hero {
+    max-width: 700px;
+  }
+  .cta__box {
+    max-width: 400px;
+    height: auto;
+    background-color: #fff;
+    width: 100%;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 2.06rem 1.81rem 2.375rem 3rem;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    flex-direction: column;
+  }
+
+  .footer {
+    padding: 3rem 10rem;
+  }
+  .btn-cta-container {
+    display: flex;
+    align-items: end;
+    justify-content: end;
+  }
+  .cta__box-lead {
+    font-size: 1.8rem;
+  }
+  .cta__box-title {
+    font-size: 2.3rem;
+  }
+  .btn-cta {
+    font-size: 2rem;
+  }
+  .section-cta-conatiner {
+    padding-bottom: 10rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+}
+
+/* for big tablet */
+@media (min-width: 1024px) {
+  html {
+    overflow-x: hidden !important;
+    font-size: 50%;
+    /* 8px / 16px */
+  }
+  .container {
+    max-width: 900px;
+  }
+  /* .image-hero {
+    left: 20%;
+  } */
+  .cta__conatiner {
+    margin-top: 30rem;
+  }
+  .hero-lead {
+    font-size: 3rem;
+  }
+  .hero-title {
+    font-size: 6.5rem;
+  }
+  .btn-hero {
+    font-size: 2.5rem;
+  }
+  .image-hero {
+    min-width: 800px;
+  }
+  .img-logo {
+    height: 30px;
+  }
+  .btn-header {
+    font-size: 2.5rem;
+    padding: 2rem 3rem;
+  }
+  .cta__title {
+    font-size: 4rem;
+    line-height: 41px;
+  }
+  .cta__box {
+    padding: 0rem 4.5rem 4rem 4.5rem;
+  }
+  .cta__box-title {
+    font-size: 2.9rem;
+    padding-top: 6rem;
+  }
+  .cta__box-lead {
+    font-size: 2.3rem;
+    margin-bottom: 6rem;
+  }
+  .btn-cta {
+    font-size: 2.3rem;
+  }
+  .section-cta-conatiner {
+    padding-bottom: 10rem;
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+  }
+  .cta__conatiner {
+    column-gap: 30px;
+    row-gap: 60px;
+  }
+  .btn-footer {
+    font-size: 2.3rem;
+    padding: 1.6rem 3rem;
+  }
+  .footer {
+    padding: 4rem 10rem;
+  }
+}
+
+/* for  desktop */
+@media (min-width: 1200px) {
+  html {
+    overflow-x: hidden !important;
+    font-size: 43.75%;
+    /* font-size: 7px / 16px */
+  }
+  .section-cta-conatiner {
+    background: linear-gradient(180deg, #ffffff 0%, #f0f1ff 100%);
+    padding-bottom: 20rem;
+  }
+  .container {
+    max-width: 1110px;
+  }
+  .cta__conatiner {
+    grid-template-columns: 1fr 1fr 1fr;
+
+    column-gap: 40px;
+    margin-top: 40rem;
+  }
+  .cta__hero {
+    max-width: 1100px;
+  }
+  .image-hero {
+    min-width: 900px;
+    left: 10%;
+  }
+  .img-logo {
+    height: 30px;
+  }
+  .btn-header {
+    padding: 1.9rem 2.7rem;
+    font-size: 2.7rem;
+  }
+  .hero-title {
+    font-size: 7.5rem;
+    margin-top: 10rem;
+  }
+  .hero-lead {
+    font-size: 2.5rem;
+  }
+  .btn-hero {
+    font-size: 2.5rem;
+  }
+  .cta__title {
+    font-size: 4.57rem;
+    max-width: 300px;
+    line-height: 40px;
+
+    padding: 9.14rem 4.5rem 4rem 4.5rem;
+  }
+  .cta__box-title {
+    font-size: 3.42rem;
+    padding-top: 6.71rem;
+  }
+  .cta__box-lead {
+    font-size: 2.57rem;
+    margin-bottom: 6rem;
+  }
+  .btn-cta {
+    font-size: 2.57rem;
+  }
+  .footer {
+    padding: 7.5rem 19rem;
+  }
+  .btn-footer {
+    font-size: 2.57rem;
+    padding: 2rem 3rem;
+  }
+
+  .cta__box {
+    padding: 0rem 4.5rem 4rem 4.5rem;
+  }
+}
